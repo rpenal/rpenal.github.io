@@ -1,1 +1,45 @@
-Hello World
+<htlm>
+    <head>
+      <title> CV </title>
+      <link href="Ejercicio1.css" type="text/css" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <script src="Ejericio1.js"></script>
+    <body onload="defaultPhoto()">
+      <div class ="MTitle">
+        <h1 >Raul Peña</h1>
+      </div>
+      <div class = "Email">
+        <a href="mailto:rpenal@unal.edu.co" style='color: black; font-weight: bold;'>rpenal@unal.edu.co</a>
+      </div>
+      <div class = "Photo">
+        <img id = "FrontFacingPhoto" src="Fotos\FrontFacing.jpg">
+      </div>
+      <div id = "IntroText">
+        <p>Hi! My name is Raul Mauricio Peña Losada, born on December 5th, 2002, in Bogotá, Colombia. I'm currently at 7th semester of Computer Science at the Universidad Nacional de Colombia (Colombia's National University).</p>
+        <p>I have experience in Python, Java and C# (through Unity). I'm also fluent in English (C2)</p>
+        <p>Here is my <a id = "CVDocLink" href="https://drive.google.com/file/d/1kpydrrmj6ij-inBf4y0PO_Dsb5fCcLwQ/view?usp=sharing" target="_blank">cv</a></p>
+      </div>
+      <div class="Separator">
+        <h1> My projects</h1>
+      </div>
+      <div class = "CarouselContainer">
+        <div id="carousel">
+          <a class="back" onclick="changeImgLeft()">&#10094;</a>
+          <a class="forward" onclick="changeImgRight()">&#10095;</a>
+          <img id="slideImg" name="slide">
+        </div>
+      </div>
+
+      <div class = "CarouselTextContainer">
+        <div id="carousel_text">
+          <h2 id="SlideTextHeader"></h2>
+          <p id = "SlideTextContent"></p>
+          <a id = "GitRepo" href ="" target="_blank">Relevant Github repository</a>
+        </div>
+      </div>
+    
+    </body>
+</htlm>
