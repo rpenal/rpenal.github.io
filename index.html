@@ -4,22 +4,38 @@
       <link href="Ejercicio1.css" type="text/css" rel="stylesheet" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet">
     </head>
     <script src="Ejericio1.js"></script>
     <body onload="defaultPhoto()">
-      <div class ="MTitle">
-        <h1 >Raul Peña</h1>
+
+      <div class="MainInfo">
+        <div class = "Photo">
+          <img id = "FrontFacingPhoto" src="Fotos\FrontFacing.jpg">
+        </div>
+        <div class ="MTitle">
+          <h1 >Raul Peña</h1>
+        </div>
+        <div class = "Email">
+          <a href="mailto:raulmapena@gmail.com">raulmapena@gmail.com</a>
+          <br>
+          <br>
+          <br>
+          <a href="https://github.com/rpenal">GitHub</a>
+          <br>
+          <br>
+          <br>
+          <a href="https://www.linkedin.com/in/raul-mauricio-pe%C3%B1a-losada-9ab298233/">LinkedIn</a>
+        </div>
       </div>
-      <div class = "Email">
-        <a href="mailto:rpenal@unal.edu.co" style='color: black; font-weight: bold;'>rpenal@unal.edu.co</a>
-      </div>
-      <div class = "Photo">
-        <img id = "FrontFacingPhoto" src="Fotos\FrontFacing.jpg">
+      <div class="Line">
+
       </div>
       <div id = "IntroText">
-        <p>Hi! My name is Raul Mauricio Peña Losada, born on December 5th, 2002, in Bogotá, Colombia. I'm currently in my 8th semester of Computer Science at the Universidad Nacional de Colombia (Colombia's National University).</p>
-        <p>I have experience in Python, Java and C# (through Unity). I'm also fluent in English (C2)</p>
+        <p>I'm currently in my 8th semester of Computer Science at the Universidad Nacional de Colombia (Colombia's National University).</p>
+        <p>I'm a passionate computer scientist with a strong background in software development. I excel in utilizing Python, Java, Unity, and C# to create innovative technological solutions. My expertise has translated into successful project outcomes, working with multi-disciplinar teams, and my goal is to continue applying my skills to challenging projects, contributing to the world of technology through my knowledge.</p>
         <p>Here is my CV in <a id = "CVDocLinkENG" href="https://drive.google.com/file/d/1puQQ-jCidAVI55d_OXfpcouM5WwwCwi7/view?usp=sharing" target="_blank">english</a> and <a id = "CVDocLinkESP" href="https://drive.google.com/file/d/1m_mjTmhMBtpjFrAuRbn87bNIynNqCovS/view?usp=sharing" target="_blank">spanish</a></p>
       </div>
       <div class="Separator">
@@ -37,9 +53,10 @@
         <div id="carousel_text">
           <h2 id="SlideTextHeader"></h2>
           <p id = "SlideTextContent"></p>
-          <a id = "GitRepo" href ="" target="_blank">Relevant Github repository</a>
+          <p id ="Repository"><a id = "GitRepo" href ="" target="_blank">Relevant Github repository</a></p>
         </div>
       </div>
-    
+  
     </body>
+
 </htlm>

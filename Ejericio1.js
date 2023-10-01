@@ -41,7 +41,7 @@ function changeImgLeft() {
 if (i > 0) {
         i--;
     } else {
-        i = 2;
+        i = headerList.length-1;
     }
     changeText(i);
     
